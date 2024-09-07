@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.74a4951d.css",
-    "main.js": "/static/js/main.8de1b2d9.js",
-    "index.html": "/index.html",
-    "main.74a4951d.css.map": "/static/css/main.74a4951d.css.map",
-    "main.8de1b2d9.js.map": "/static/js/main.8de1b2d9.js.map"
+    "main.css": "/meow-archive/static/css/main.74a4951d.css",
+    "main.js": "/meow-archive/static/js/main.d0fed3f1.js",
+    "index.html": "/meow-archive/index.html",
+    "main.74a4951d.css.map": "/meow-archive/static/css/main.74a4951d.css.map",
+    "main.d0fed3f1.js.map": "/meow-archive/static/js/main.d0fed3f1.js.map"
   },
   "entrypoints": [
     "static/css/main.74a4951d.css",
-    "static/js/main.8de1b2d9.js"
+    "static/js/main.d0fed3f1.js"
   ]
 }
