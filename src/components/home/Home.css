@@ -1,0 +1,90 @@
+/* 가운데 정렬
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+// 양쪽 정렬
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// 중앙 정렬
+@mixin position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// 상단 고정
+@mixin position-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+// 하단 고정
+@mixin position-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+}
+    */
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    
+    /* Section */
+    .section {
+        padding: 120px 0px;
+    }
+    
+    .section > h2 {
+        font-size: 50px;
+        line-height: 1;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .section > p {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 70px;
+        color: #666;
+        text-align: center;
+    }
+    .section > span {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: underline;
+        margin-bottom: 14px;
+    }
+    
+    /* Footer */
+    .footer {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+        background-color: #666;
+    }
+    
+    .footer_text {
+        display: inline;
+        text-align: center;
+        color: #FFFFFF;
+    }

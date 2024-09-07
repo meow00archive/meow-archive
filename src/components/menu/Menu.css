@@ -1,0 +1,33 @@
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+.menu-category {
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    transition: background-color 0.33s;
+}
+
+.menu-category li {
+    display: inline;
+}
+
+.menu-category li a{
+    padding: 13px 30px;
+    margin: 0 20px;
+    transition: background-color 0.33s;
+}
+
+.menu-category li a:hover {
+    padding: 13px 30px;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+  

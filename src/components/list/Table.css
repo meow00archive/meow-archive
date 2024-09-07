@@ -1,0 +1,78 @@
+.list {
+  border: 1px solid #e8e8e8;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  border-spacing: 0;
+  gap: 10px;
+}
+
+.list-header-column {
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list-row:hover {
+  background-color: #eceaea;
+  cursor: pointer;
+}
+
+.list-column-title {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.list-column {
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: normal;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.list-center {
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: normal;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+
+
+
+
+.api-info-row {
+  display: flex;
+  align-items: center; /* 두 요소를 수직 중앙에 맞춤 */
+  gap: 10px; /* API 이름과 설명 사이에 약간의 여백 추가 */
+}
+
+.api-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.api-description {
+  font-size: 14px;
+  color: #666; /* 설명 부분은 좀 더 연한 색상으로 설정 */
+}
+
+.api-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
